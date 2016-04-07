@@ -1,4 +1,4 @@
-__author__ = 'akashkakumani'
+_author__ = 'akashkakumani'
 
 #from __future__ import with_statement
 
