@@ -9,20 +9,20 @@ def extract_http(request_text, dict_filed):
     request_line = request_line.split(' ', 2)
     # print request_line[0]
     if request_line[0] in {'GET', 'HEAD', 'POST', 'PUT', 'DELETE', 'TRACE', 'CONNECT'}:
-        dict_filed['action'] = request_line[0]
-        dict_filed['Domain'] = headers['host']
-        dict_filed['URL'] = headers['host'] + request_line[1]
+        dict_filed['tags']['action'] = request_line[0]
+        dict_filed['tags']['Domain'] = headers['host']
+        dict_filed['tags']['URL'] = headers['host'] + request_line[1]
         # print request_line[1]
     else:
-        dict_filed['result_code'] = request_line[1]
+        dict_filed['tags']['result_code'] = request_line[1]
     if 'user_agent' in headers.keys():
-        dict_filed['user_agent'] = headers['user_agent']
+        dict_filed['tags']['user_agent'] = headers['user_agent']
     if 'referer' in headers.keys():
-        dict_filed['user_agent'] = headers['referer']
+        dict_filed['tags']['referer'] = headers['referer']
     if 'content-type' in headers.keys():
-        dict_filed['content-type'] = headers['content-type']
+        dict_filed['tags']['content-type'] = headers['content-type']
     if 'accept' in headers.keys():
-        dict_filed['content-type'] = headers['accept']
+        dict_filed['tags']['content-type'] = headers['accept']
     # print headers.keys()
     # print dict_filed['URL']
     """
