@@ -1,0 +1,41 @@
+
+* readpcap script edited:
+	(1)Pipe stdin to dbread.py from tcpdump and a seperate thread will write to DB every MAXREQUESTS 
+	(2)Accuracy of timestamps changed
+	(3)Many domains were skipped from being appended to batch write, fixed
+	(4)Streaming from tcpdump still not fully functional, minor error.. someone please look into that 
+
+All credits to Cai for parsing mechanism
+
+* system.py:
+	(1)Edit the config.txt file to set up the parameters for a system that reads N pcap files in parallel using multiprocessing (to avoid Python's GIL) and then splits off a child process to take care of detection of the pcaps written to DB
+	(2)Manages DB information based on run cycle, this is updated in the config.txt file every time you run it
+	(3)End of script running = log.txt will contain performance results for writing to DB
+
+THIS MAY NOT BE THE FASTEST WAY TO CONNECT EVERYTHING... but this is my sample implementation for now.. if we stick with influxdb
+
+*detect:
+	(1)Detects the malicious traffic rules that Alina provided us with 
+	(2)Writes all results to a seperate DB that contains info about each malicious request
+
+****************************************************
+TO TEST:
+(1)Open config.txt and fix the first half of the directory so that it leads to the 4 pcap files in "testing"
+(2)Start InfluxDB and login
+(3)Go to localhost:8083 and check it out!
+
+Traffic stored in Traffic_X DB
+Detection results stored in Detect_X DB
+****************************************************
+Config file:
+
+dir DIRECTORY (until the last number.pcap ... so format pcap file names "{}{}".format(name,number), starting from 1
+
+N NUMBER OF PCAPS
+
+MAXREQUESTS (Till thread writes to DB and array started over)
+DETECTLOADS 4 (not used yet..)
+host (host for influxdb connection)
+port (port for influxdb connection)
+run (How many times has system.py been run?)
+
