@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2016-03-28-15-22-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1437663360.051318	C8hH2jvx7CBVNC4l	192.168.137.85	49243	23.205.169.72	80	TCP_ack_underflow_or_misorder	-	F	bro
+1437663360.389689	-	-	-	-	-	bad_IP_checksum	-	F	bro
+1437663360.510012	C8hH2jvx7CBVNC4l	192.168.137.85	49243	23.205.169.72	80	TCP_seq_underflow_or_misorder	-	F	bro
+1437663362.750141	CvS1u54ypUgKrczeyh	52.7.207.104	843	192.168.137.85	49537	connection_originator_SYN_ack	-	F	bro
+1437663368.438188	C3mTnGmvugCWcKKrl	192.168.137.85	49665	74.208.173.200	80	above_hole_data_without_any_acks	-	F	bro
+1437663370.068209	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1437663384.041166	CrLqbj1KvctsvmQ94a	192.168.137.85	49696	173.194.65.95	80	unescaped_special_URI_char	-	F	bro
+1437663405.075561	CDFi1A3jKGqKne54Vh	192.168.137.85	49697	173.194.65.95	80	unescaped_special_URI_char	-	F	bro
+1437663405.442485	CWSMG71Rbq08cdfxY3	192.168.137.85	49639	77.67.21.209	80	bad_TCP_checksum	-	F	bro
+1437663432.203140	CH7D9d18p2WDAyzaH9	192.168.137.85	49712	82.199.80.141	80	unescaped_special_URI_char	-	F	bro
+1437663488.057481	CDMmuD3X3BruBVsFYk	192.168.137.85	68	192.168.137.1	67	bad_UDP_checksum	-	F	bro
+1437663488.072785	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1437663498.107680	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1437663542.945905	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+#close	2016-03-28-15-22-23

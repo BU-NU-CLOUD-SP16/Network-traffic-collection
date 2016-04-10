@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2016-03-28-15-21-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1394195846.258826	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1394195856.961959	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1394196008.595180	CdNws82l7beQoPUo3	172.16.88.10	49493	172.16.88.135	80	bad_TCP_checksum	-	F	bro
+1394196008.598340	CdNws82l7beQoPUo3	172.16.88.10	49493	172.16.88.135	80	data_before_established	-	F	bro
+1394196043.661746	C2OV6I1j3daPVr8yMa	172.16.88.10	49495	172.16.88.135	80	data_before_established	-	F	bro
+1394196112.786516	CmKrzQ4Ei9ghOvSf1	172.16.88.10	49511	172.16.88.135	80	data_before_established	-	F	bro
+1394196144.822137	C2fAhykDn0L9ENiS3	172.16.88.10	49512	172.16.88.135	80	data_before_established	-	F	bro
+1394196176.866791	CSSJcy3jrag04SDUQk	172.16.88.10	49513	172.16.88.135	80	data_before_established	-	F	bro
+1394196208.902443	CcJNRc49uQ0N0pZOHg	172.16.88.10	49516	172.16.88.135	80	data_before_established	-	F	bro
+1394196240.947552	CoKgGU3DgqgvJVrMNj	172.16.88.10	49517	172.16.88.135	80	data_before_established	-	F	bro
+1394196272.995504	CWy7uu22yiGsECeX3g	172.16.88.10	49518	172.16.88.135	80	data_before_established	-	F	bro
+1394196305.029692	Cz3EL83oRy5l4rt1Yb	172.16.88.10	49519	172.16.88.135	80	data_before_established	-	F	bro
+#close	2016-03-28-15-21-32
