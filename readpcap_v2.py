@@ -136,12 +136,8 @@ def CreateBatch():
 				}
 			}
 			
-        		dict_field['time'] = pcap_head_dict['gmt_time']
-        		#dict_field['sIP'] = socket.inet_ntoa(pack('!I', ip_head_dict['saddr']))
-        		#dict_field['dIP'] = socket.inet_ntoa(pack('!I', ip_head_dict['daddr']))
-        		#dict_field['sPort'] = tcp_head_dict['src_port']
-        		#dict_field['dPort'] = tcp_head_dict['dst_port']
-        		#dict_field['bytes'] = pcap_len - 14 - ip_head_length - tcp_head_length
+        		# time now in micro seconds for accuracy
+			dict_field['time'] = int(pcap_head_dict['gmt_time'])*1000000 + int(pcap_head_dict['micro_time'])
         		if pcap_len >= 14+ip_head_length+tcp_head_length:
             			data = skb[14+ip_head_length+tcp_head_length: pcap_len]
             			if data.find('HTTP', 0, data.find('\r\n')) != -1:
