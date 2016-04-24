@@ -75,7 +75,7 @@ if __name__ == "__main__":
 
 #####################################################################################################
     # CONNECT TO TRAFFIC DB TO QUERY
-    client = InfluxDBClient('127.0.0.1', '8086', database="Traffic_11",username='monitor',password='monitor')
+    client = InfluxDBClient('127.0.0.1', '8086', database="TRAFFIC",username='RootUser',password='Grafana')
 
     # CHECK FOR USER DEFINED TIME INTERVAL (in minutes, converted to micro seconds):
     userinterval = int(sys.argv[1]) * 60000000
@@ -216,7 +216,7 @@ if __name__ == "__main__":
     ##################################################################################################
 
     # CONNECT TO DETECTION DB
-    client = InfluxDBClient('127.0.0.1', '8086', database="Detect",username='grafana',password='grafana')
+    client = InfluxDBClient('127.0.0.1', '8086', database="Detect",username='RootUser',password='Grafana')
 
     # CHECK EXISTENCE OF DATABASE
     alldbs = client.get_list_database()
