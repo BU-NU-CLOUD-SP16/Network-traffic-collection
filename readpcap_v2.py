@@ -48,11 +48,20 @@ def checksum(msg):
 
 def CreateBatch():
 	Array = []
-	client = InfluxDBClient(host='127.0.0.1', port=8086, database='TRAFFIC')
-	# fpcap = open(file, 'rb')
-	# text = fpcap.read()
-	#regexp = re.compile(sys.argv[1])
-	#text = fileinput.input(sys.argv[2:])
+	
+	# CONNECT TO DATABASE
+	client = InfluxDBClient(host='127.0.0.1', port=8086, database='TRAFFIC', username='RootUser', password='Grafana')
+	
+	# CHECK EXISTENCE OF DATABASE
+    	alldbs = client.get_list_database()
+    	checkdb = False
+    	for a in alldbs:
+        	if a['name'] == 'TRAFFIC':
+            		checkdb = True
+    		if checkdb == False:
+ 			client.create_database("TRAFFIC")
+ 			
+ 	# BEGIN PARSING STREAM FROM STDIN
 	count = 0
 	pcap_file_header_fmt = ['majic', 'version_major', 'version_minor', 'zone', 'max_len', 'time_stap', 'link_type']
 
@@ -180,19 +189,5 @@ def execute(db):
 		rate2 = float(count)/influx
 		print("TIME INFLUX: {} SPEED PER REQUEST: {}\n\n".format(influx,rate2))
 
-""""	
-array = ['1','2']
-for x in range(0,len(array)):
-	str = '/home/ubuntu/xxx{}.pcap'.format(array[x])
-	thread = Thread(target = execute, args = (str,array[x], ))
-	thread.start()
-thread.start()
-print x
-
-#print(array)
-
-"""""
-
 
 CreateBatch()
-# execute(1)
