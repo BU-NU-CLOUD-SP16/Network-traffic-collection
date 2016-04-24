@@ -51,9 +51,10 @@ if __name__ == "__main__":
         else:
             return False
 
-
+    # FOR FLOAT EQUALITY COMPARISON, (old python causes rounding error)
     def isclose(a, b, rel_tol=1e-09, abs_tol=0.0):
         return abs(a - b) <= max(rel_tol * max(abs(a), abs(b)), abs_tol)
+        
     # FOR WRITING RESULTS TO DB
     def CreateBatchMal(X,maltype):
         dict_field = {
@@ -228,34 +229,3 @@ if __name__ == "__main__":
 
     # WRITE ALL RESULTS
     client.write_points(results,time_precision='u')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
