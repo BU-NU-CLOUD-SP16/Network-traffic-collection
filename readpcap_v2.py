@@ -48,7 +48,7 @@ def checksum(msg):
 
 def CreateBatch():
 	Array = []
-	client = InfluxDBClient(host='127.0.0.1', port=8086, database='newDB')
+	client = InfluxDBClient(host='127.0.0.1', port=8086, database='TRAFFIC')
 	# fpcap = open(file, 'rb')
 	# text = fpcap.read()
 	#regexp = re.compile(sys.argv[1])
