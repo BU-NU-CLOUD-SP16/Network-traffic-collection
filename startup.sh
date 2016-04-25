@@ -16,11 +16,13 @@ curl -G http://localhost:8086/query --data-urlencode "q=CREATE DATABASE TRAFFIC"
 curl -G http://localhost:8086/query --data-urlencode "q=CREATE DATABASE Detect"
 
 #download python dependencies
-sudo apt-get install numpy
-sudo apt-get install sets
-sudo apt-get install statistics
-sudo apt-get install ciso8601
-sudo apt-get install python-influxdb
+sudo apt-get install python-setuptools python-dev build-essential
+sudo easy_install pip
+sudo pip install numpy
+sudo pip install sets
+sudo pip install statistics
+sudo pip install ciso8601
+sudo pip install python-influxdb
 
 #install and pull the git repo
 sudo apt-get install git
