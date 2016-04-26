@@ -1,0 +1,9 @@
+dir /home/syriansamurai/PycharmProjects/NCMOC/testing/sample
+N 4
+MAXREQUESTS 1000
+DETECTLOADS 4
+host 127.0.0.1
+port 8086
+run 0
+detect? 1
+read? 1
