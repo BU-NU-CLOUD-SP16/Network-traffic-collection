@@ -21,16 +21,13 @@ if __name__ == '__main__':
     for n in range(0, len(Nlist)):
         N = Nlist[n]
 
-        cmd0 = "httperf --hog --server facebook.com --port 80 --rate 1000 --num-conn 200000000 &"
         cmd1 = "tcpdump port 80 -i wlan0 -U -w - &"
         cmd2 = "python readpcap_v2.py {}".format(N)
         cmd3 = "python detect.py {}".format(N)
 
         # RUN HTTPERF, DIRECT TCPDUMP TO READPCAP, AND THEN DETECT. PERF RESULTS APPENDED TO RESULT ARRAYS
-        p = Popen(cmd0, shell=True,stdout=PIPE)
         p1 = Popen(cmd1, shell=True, stdout=PIPE)
         p2 = Popen(cmd2, shell=True, stdin=p1.stdout, stdout=PIPE)
-        p.kill()
         p1.kill()
         p2r = p2.communicate()[0]
         p3 = check_output(cmd3, shell=True,stdin=PIPE)
