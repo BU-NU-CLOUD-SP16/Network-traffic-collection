@@ -95,7 +95,7 @@ if __name__ == "__main__":
     keylogger_seq1 = client.query("select * FROM http WHERE URL =~ /\/s\?gs_rn=16&gs_ri=psy\-ab&suggest=p&cp=/ and action = 'GET'"+" and time > {}".format(interval_begin))
     keylogger_seq2 = client.query("select * FROM http WHERE URL =~ /\/complete\/search\?client=hp&hl=en&gs_rn=16&gs_ri=psy\-ab&suggest=p&cp/ and action = 'GET'"+" and time > {}".format(interval_begin))
     darkness = client.query("select * FROM http WHERE URL =~ /\/index\.php\?uid=587609&ver=8g/ and action = 'GET'"+" and time > {}".format(interval_begin))
-    kuluoz = client.query("select * from http where URL =~ /\/C338D6D09CA45230980EF28CDAEF57A1E80E725685E70E5ED4088FFB98E21ECC52E0A6FB44B8C30DEA90454BD8E292E523BE43AE9871A36910BACBD3E09B23700FDE12BC8A5F54E0FB8BDC91E6D5B4/"+" and time > {}".format(interval_begin))
+    kuluoz = client.query("select * from http where URL =~ /\/C338D6D09CA45230980EF28CDAEF57A1E80E725685E70E5ED4088FFB98E21ECC52E0A6FB44B8C30DEA90454BD8E292E523BE43AE9871A36910BACBD3E09B23700FDE12BC8A5F54E0FB8BDC91E6D5B4/ and action = 'GET'"+" and time > {}".format(interval_begin))
 
     # analyze
     results = []
