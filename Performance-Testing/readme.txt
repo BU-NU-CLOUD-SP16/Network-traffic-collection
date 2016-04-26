@@ -1,1 +1,1 @@
-This is for stress testing the system, spits out PNG file which maps the time latency per request. To run: "sudo python perf_test.py N" , where N is the total number of requests to test. Can test several N's at the same time. 
+This is for stress testing the system, appends the time latency per request to a log file. To run: "sudo python perf_test.py N" , where N is the total number of requests to test. Can test several N's at the same time. 
