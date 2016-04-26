@@ -90,7 +90,7 @@ if __name__ == "__main__":
     N = int(arglist)
 
     # CONNECT TO TRAFFIC DB TO QUERY
-    client = InfluxDBClient('127.0.0.1', '8086', database="Traffic_{}".format(N),username='monitor',password='monitor')
+    client = InfluxDBClient('127.0.0.1', '8086', database="Traffic_{}".format(N),username='grafana',password='grafana')
 
     # ALL QUERIES HERE
     zeus = client.query("select * from http where Domain =~ /[a-z0-9]{32,48}.(info|biz|ru|com|org|net)/")
