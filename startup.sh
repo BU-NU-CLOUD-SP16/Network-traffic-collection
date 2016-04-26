@@ -22,7 +22,7 @@ sudo pip install numpy
 sudo pip install sets
 sudo pip install statistics
 sudo pip install ciso8601
-sudo pip install python-influxdb
+sudo pip install influxdb
 
 #install and pull the git repo
 sudo apt-get install git
