@@ -6,4 +6,4 @@ In order to run this program:
 3) Enter the config.txt file, replace * with the directory that leads to the inside of the testing folder, so that the program knows where the pcaps it will parse are located. Make sure that the pcap file names are formatted in the following manner: "sample#.pcap" , where # is replaced by a number.
 4) Run the following command: sudo python system.py
 5) Go to localhost:8083 and observe the detection results!
-(A sample screenshot of the deetection results is in this folder, named "sample.png")
+(A sample screenshot of the detection results is in this folder, named "sample.png")
