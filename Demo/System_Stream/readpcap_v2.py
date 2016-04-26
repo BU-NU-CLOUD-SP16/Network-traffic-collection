@@ -41,7 +41,7 @@ if __name__ == '__main__':
 	Array = []
 
 	# CONNECT TO DATABASE
-	client = InfluxDBClient(host='127.0.0.1', port=8086, database="Traffic_{}".format(N), username='RootUser', password='Grafana')
+	client = InfluxDBClient(host='127.0.0.1', port=8086, database="Traffic_{}".format(N), username='grafana', password='grafana')
 	
 	# CHECK EXISTENCE OF DATABASE
 	alldbs = client.get_list_database()
