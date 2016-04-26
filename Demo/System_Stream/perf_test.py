@@ -1,5 +1,5 @@
 import sys
-from subprocess import Popen, PIPE, check_output, call
+from subprocess import Popen, PIPE, check_output
 
 if __name__ == '__main__':
     # PERFORMANCE TESTER FOR TRAFFIC COLLECTION / MALICIOUS TRAFFIC DETECTION
