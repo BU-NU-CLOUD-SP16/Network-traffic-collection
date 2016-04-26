@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2016-04-22-06-16-46
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1431031896.723375	CtbEnv3eloA0Ezxs7	192.168.138.158	60078	192.168.138.2	53	udp	18350	va872g.g90e1h.b8.642b63u.j985a2.v33e.37.pa269cc.e8mfzdgrf7g0.groupprograms.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.75.195.236	29.000000	F
+1431031897.512327	CLbkpc3Vx4EzKzoLq1	192.168.138.158	65315	192.168.138.2	53	udp	27248	ubb67.3c147o.u806a4.w07d919.o5f.f1.b80w.r0faf9.e8mfzdgrf7g0.groupprograms.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.75.195.236	29.000000	F
+1431031897.512469	CFLdnU2FXmbeZCFV4k	192.168.138.158	50683	192.168.138.2	53	udp	62139	r03afd2.c3008e.xc07r.b0f.a39.h7f0fa5eu.vb8fbl.e8mfzdgrf7g0.groupprograms.in	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	62.75.195.236	29.000000	F
+1431031902.637356	CP4DHzufTArvqQZQd	192.168.138.158	53571	192.168.138.2	53	udp	15553	ip-addr.es	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	188.165.164.184	21599.000000	F
+1431031903.052371	CJgg7QPXj584O8zHc	192.168.138.158	61720	192.168.138.2	53	udp	23625	runlove.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	204.152.254.221	14069.000000	F
+1431031903.289815	Cbc6k61ARcZx35libb	192.168.138.158	50509	192.168.138.2	53	udp	6088	kritischerkonsum.uni-koeln.de	1	C_INTERNET	1	A	0	NOERROR	F	F	T	F	0	-	-	F
+1431031903.475416	C5oqYdmGByxN687Ba	192.168.138.158	56753	192.168.138.2	53	udp	41589	comarksecurity.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	72.34.49.86	13888.000000	F
+1431031941.332372	CrBbt82pGoTVLKZXi	192.168.138.158	50329	192.168.138.2	53	udp	5810	7oqnsnzwwnm6zb7y.gigapaysun.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.163.121.204	14277.000000	F
+#close	2016-04-22-06-16-46

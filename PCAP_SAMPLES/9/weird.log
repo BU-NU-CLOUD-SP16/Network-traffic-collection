@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2016-04-22-06-20-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1295296761.538379	CI4Kz2zlC0pcc1lU8	172.16.3.27	1025	172.16.1.1	53	bad_UDP_checksum	-	F	bro
+1295296794.204669	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+#close	2016-04-22-06-20-29

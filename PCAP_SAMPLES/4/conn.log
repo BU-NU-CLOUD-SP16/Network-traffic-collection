@@ -1,0 +1,47 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2016-04-22-06-17-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents	orig_cc	resp_cc	sensorname
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]	string	string	string
+1349442059.404676	CBGO5L33h9hS5lhdp8	192.168.1.156	1061	173.194.35.31	80	tcp	http	0.076829	500	822	SF	-	-	0	ShADadfF	5	708	5	1030	(empty)	-	US	(empty)
+1349442059.533957	CXknza2G3AiOPN3Hl	192.168.1.156	1063	173.194.35.31	80	tcp	http	0.055495	501	821	SF	-	-	0	ShADadfF	5	709	5	1029	(empty)	-	US	(empty)
+1349442059.665515	CTtm8I2S1c2HYB0bpf	192.168.1.156	1065	173.194.35.31	80	tcp	http	0.056354	502	870	SF	-	-	0	ShADadfF	5	710	5	1078	(empty)	-	US	(empty)
+1349442060.071840	Ca0WA14B1yDLtMGLX3	192.168.1.156	1067	173.194.35.31	80	tcp	http	0.052619	503	849	SF	-	-	0	ShADadfF	5	711	5	1057	(empty)	-	US	(empty)
+1349442060.277200	CGDR6i1cDUFx12vz6k	192.168.1.156	1069	173.194.35.31	80	tcp	http	0.056696	506	898	SF	-	-	0	ShADadfF	5	714	5	1106	(empty)	-	US	(empty)
+1349442060.524454	CEVqdo2pcI28ZopSfa	192.168.1.156	1071	173.194.35.31	80	tcp	http	0.050399	507	894	SF	-	-	0	ShADadfF	5	715	5	1102	(empty)	-	US	(empty)
+1349442060.692617	Civu7AESlLtsSS2j5	192.168.1.156	1073	173.194.35.31	80	tcp	http	0.051097	508	898	SF	-	-	0	ShADadfF	5	716	5	1106	(empty)	-	US	(empty)
+1349442061.113622	CJCS1z13CMf7sIzyMd	192.168.1.156	1075	173.194.35.31	80	tcp	http	0.047885	512	854	SF	-	-	0	ShADadfF	5	720	5	1062	(empty)	-	US	(empty)
+1349442061.395820	CVz4iF3cNcYDYtngD8	192.168.1.156	1077	173.194.35.31	80	tcp	http	0.062170	514	1712	SF	-	-	0	ShADadfF	5	722	6	1960	(empty)	-	US	(empty)
+1349442061.699612	CRSzOdJeLQCV8sQrl	192.168.1.156	1079	173.194.35.31	80	tcp	http	0.060835	515	1632	SF	-	-	0	ShADadfF	5	723	6	1880	(empty)	-	US	(empty)
+1349442061.833451	C1fx8F2dJmr0ZEGeDf	192.168.1.156	1081	173.194.35.31	80	tcp	http	0.057797	517	994	SF	-	-	0	ShADadfF	5	725	5	1202	(empty)	-	US	(empty)
+1349442063.682073	CcSgQ44G5rLgs4yxI3	192.168.1.156	1083	173.194.44.191	80	tcp	http	0.245592	720	38839	SF	-	-	0	ShADadfF	11	1168	32	40127	(empty)	-	US	(empty)
+1349442059.398734	CfekUs12xKGrDWTffe	192.168.1.156	1025	192.168.1.1	53	udp	dns	4.282570	67	485	SF	-	-	0	Dd	2	123	2	541	(empty)	-	-	(empty)
+1349442064.697335	CQBS6f1HlihvV8uLxk	192.168.1.156	1086	173.194.44.191	80	tcp	http	0.039003	677	25118	SF	-	-	0	ShADadfF	8	1005	22	26006	(empty)	-	US	(empty)
+1349442082.413143	CiFRku2YBvjul4PbN9	192.168.1.156	1088	173.194.44.191	80	tcp	http	0.048039	847	462	SF	-	-	0	ShADadfF	5	1055	5	670	(empty)	-	US	(empty)
+1349442082.578760	C6Kzu9NRa8pted7Ml	192.168.1.156	1090	80.74.143.94	80	tcp	http	0.016299	494	912	SF	-	-	0	ShADadfF	5	702	5	1120	(empty)	-	CH	(empty)
+1349442082.827365	CsQAcJ2q6BjnB4rTW4	192.168.1.156	1092	178.211.33.205	80	tcp	http	0.449970	652	354	SF	-	-	0	ShADadfF	5	860	5	562	(empty)	-	TR	(empty)
+1349442083.496474	C6UDYt1544Ej9Mofae	192.168.1.156	1094	82.211.45.82	80	tcp	http	2.238808	501	541106	SF	-	-	0	ShADadfF	119	5557	378	559154	(empty)	-	DE	(empty)
+1349442082.550473	CSQUjuIAPFve7nck8	192.168.1.156	1025	192.168.1.1	53	udp	dns	0.944641	100	525	SF	-	-	0	Dd	3	184	3	609	(empty)	-	-	(empty)
+1349442146.171097	CFF0qp2o0rwWQzlfaa	192.168.1.156	137	192.168.1.255	137	udp	dns	10.017258	450	0	S0	-	-	0	D	9	702	0	0	(empty)	-	-	(empty)
+1349442128.209225	CAUX0K3TcRmgNFdack	192.168.1.156	138	192.168.1.255	138	udp	-	33.206816	1083	0	S0	-	-	0	D	6	1251	0	0	(empty)	-	-	(empty)
+1349442229.705474	CH7wVyThTe83Knxjf	192.168.1.156	1025	192.168.1.1	53	udp	dns	0.907404	84	137	SF	-	-	0	Dd	2	140	2	193	(empty)	-	-	(empty)
+1349442229.712253	CBFYo040hYRUIuum34	192.168.1.156	1095	192.168.1.1	53	udp	dns	0.000899	44	66	SF	-	-	0	Dd	1	72	1	94	(empty)	-	-	(empty)
+1349442247.163923	ChWjjj1n6FubTyDTI8	192.168.1.156	1025	192.168.1.1	53	udp	dns	0.006286	44	85	SF	-	-	0	Dd	1	72	1	113	(empty)	-	-	(empty)
+1349442252.351874	CM0B0fqPNawxBQfml	192.168.1.156	138	192.168.1.255	138	udp	-	-	-	-	S0	-	-	0	D	1	229	0	0	(empty)	-	-	(empty)
+1349442329.394658	Cc9ZVD2VqwDoorSrd5	192.168.1.156	1025	192.168.1.1	53	udp	dns	0.001063	44	76	SF	-	-	0	Dd	1	72	1	104	(empty)	-	-	(empty)
+1349442358.227779	Cum0uG3e5S9KSDXHsk	192.168.1.156	1096	88.216.164.117	80	tcp	http	0.346235	868	376	RSTO	-	-	0	ShADadfR	5	1076	4	544	(empty)	-	LT	(empty)
+1349442361.209246	CxEBgt2Pgkmsq2xcS9	192.168.1.156	1097	88.216.164.117	80	tcp	http	0.348298	1188	376	RSTO	-	-	0	ShADadfR	5	1396	4	544	(empty)	-	LT	(empty)
+1349442358.145155	C8KnPx1sh8QjBH4cSd	192.168.1.156	1025	192.168.1.1	53	udp	dns	0.611133	75	285	SF	-	-	0	Dd	2	131	2	341	(empty)	-	-	(empty)
+1349442368.642653	CpHFov26KHsfIjfIf	192.168.1.156	1025	192.168.1.1	53	udp	dns	0.004020	44	145	SF	-	-	0	Dd	1	72	1	173	(empty)	-	-	(empty)
+1349442446.309559	Cdc9V547J3JYxsAuD3	192.168.1.156	138	192.168.1.255	138	udp	-	-	-	-	S0	-	-	0	D	1	217	0	0	(empty)	-	-	(empty)
+1349442686.196350	CZvB2e1PvEJtwvfNsg	192.168.1.156	1025	192.168.1.1	53	udp	dns	0.001878	44	85	SF	-	-	0	Dd	1	72	1	113	(empty)	-	-	(empty)
+1349442879.089860	CN3phm1lz2J5IwGvNj	192.168.1.156	137	192.168.1.255	137	udp	dns	10.001711	450	0	S0	-	-	0	D	9	702	0	0	(empty)	-	-	(empty)
+1349442879.089487	CFKExW3ArbezrnUhY2	192.168.1.156	138	192.168.1.255	138	udp	-	12.770898	705	0	S0	-	-	0	D	4	817	0	0	(empty)	-	-	(empty)
+1349442970.414355	C10mvB2Mi9ra0QdKCa	192.168.1.156	138	192.168.1.255	138	udp	-	-	-	-	S0	-	-	0	D	1	229	0	0	(empty)	-	-	(empty)
+1349443076.329243	C3Ag1mU3PjO2vMNs4	192.168.1.156	68	192.168.1.1	67	udp	dhcp	0.002589	300	300	SF	-	-	0	Dd	1	328	1	328	(empty)	-	-	(empty)
+1349443611.982388	C8JCgy3yv2PdHV8ao9	192.168.1.156	137	192.168.1.255	137	udp	dns	10.023505	450	0	S0	-	-	0	D	9	702	0	0	(empty)	-	-	(empty)
+1349443611.981398	CqfYbH1BkFQUu6bsxe	192.168.1.156	138	192.168.1.255	138	udp	-	8.524367	522	0	S0	-	-	0	D	3	606	0	0	(empty)	-	-	(empty)
+#close	2016-04-22-06-17-18

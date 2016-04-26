@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2016-04-22-06-17-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1349442229.705474	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1349442970.414355	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1349443622.005893	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+#close	2016-04-22-06-17-18

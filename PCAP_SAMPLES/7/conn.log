@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2016-04-22-06-19-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents	orig_cc	resp_cc	sensorname
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]	string	string	string
+1359930049.905307	CuiXRdCosQjtGkso7	172.16.253.129	1032	23.59.240.60	443	tcp	-	-	-	-	RSTRH	-	-	0	r	0	0	1	40	(empty)	-	US	(empty)
+1359930049.911745	C07BiP3GeFIWeMXqBe	172.16.253.129	1037	23.59.240.60	443	tcp	-	-	-	-	RSTRH	-	-	0	r	0	0	1	40	(empty)	-	US	(empty)
+1359930094.765332	CWpXPOCAWuDoNnti6	172.16.253.129	53	8.8.8.8	53	udp	dns	-	-	-	S0	-	-	0	D	1	65	0	0	(empty)	-	US	(empty)
+1359930094.765388	C9jeCN3261rsmXxvzf	172.16.253.129	53	4.2.2.2	53	udp	dns	0.022584	37	163	SF	-	-	0	Dd	1	65	1	191	(empty)	-	US	(empty)
+1359930048.072145	CcA2zo4NabR2jdVoVb	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000865	613	0	S0	-	-	0	D	2	669	0	0	(empty)	-	-	(empty)
+1359930028.793176	CfKAUlXVHI7owztca	172.16.253.129	68	172.16.253.254	67	udp	dhcp	19.280810	301	900	SF	-	-	0	Dd	1	329	3	984	(empty)	-	-	(empty)
+1359930094.812374	CxsiKWkBoZidkYFY5	172.16.253.129	1043	63.250.193.228	587	tcp	smtp	21.719100	10343395	324	SF	-	-	0	ShAdDaFf	10074	10749283	10180	407564	(empty)	-	US	(empty)
+1359930118.630034	CcReXz3Et20vY1YXVf	172.16.253.129	53	8.8.8.8	53	udp	dns	3.237692	93	365	SF	-	-	0	Dd	3	177	3	449	(empty)	-	US	(empty)
+1359930118.630147	CgC5Q91sxq2IJFQzN7	172.16.253.129	53	4.2.2.2	53	udp	dns	3.234318	93	381	SF	-	-	0	Dd	3	177	3	465	(empty)	-	US	(empty)
+1359930121.014249	CDYaP14Y5JUBgeuike	172.16.253.129	1047	74.125.228.9	80	tcp	http	39.604414	627	540	RSTO	-	-	0	ShADadR	5	835	4	1244	(empty)	-	US	(empty)
+1359930121.083681	C1OMBAP1yTaBGXgua	172.16.253.129	1048	74.125.131.147	80	tcp	http	39.535102	45328	428549	RSTO	-	-	0	ShADadR	177	52416	444	465674	(empty)	-	US	(empty)
+1359930121.892200	C2hAma4Hv4F2zlmEad	172.16.253.129	1051	74.125.228.79	80	tcp	http	38.727580	373	19328	RSTO	-	-	0	ShADadR	10	781	16	19972	(empty)	-	US	(empty)
+1359930121.562925	CxoxdD4ndwVtjVuCvb	172.16.253.129	1049	74.125.131.147	80	tcp	http	39.056953	40211	246312	RSTO	-	-	0	ShADadR	154	46379	293	274108	(empty)	-	US	(empty)
+1359930121.864980	CDi3V1Cl5FZfpkH8	172.16.253.129	1050	74.125.228.79	80	tcp	http	38.755151	706	12812	RSTO	-	-	0	ShADadR	10	1114	14	13883	(empty)	-	US	(empty)
+1359930131.217962	CqkUZztjfuxMKUNFf	172.16.253.129	1052	74.125.131.147	80	tcp	http	29.402864	32885	77279	RSTO	-	-	0	ShADadR	89	36453	151	95354	(empty)	-	US	(empty)
+1359930151.793332	Cd8yQSPsVnbL4ppp6	172.16.253.129	1053	74.125.131.147	80	tcp	http	8.827935	7416	46464	RSTO	-	-	0	ShADadR	28	8544	53	52758	(empty)	-	US	(empty)
+1359930164.544969	CrQB9K3RpAC6CqxsAe	172.16.253.142	49179	239.255.255.250	1900	udp	-	15.047099	798	0	S0	-	-	0	D	6	966	0	0	(empty)	-	-	(empty)
+1359930007.568199	CbDHSn4rR8avEz2cQc	172.16.253.1	17500	172.16.253.255	17500	udp	-	164.461967	2262	0	S0	-	-	0	D	7	2458	0	0	(empty)	-	-	(empty)
+#close	2016-04-22-06-19-41

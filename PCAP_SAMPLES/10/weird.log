@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2016-04-22-06-21-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1349360808.272485	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1349360888.329906	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1349360918.544895	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1349361107.210215	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1349361306.278705	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1349361306.278705	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+1349361425.919890	CcTOwwblz3EEOO69	192.168.248.165	2256	156.154.70.1	53	dns_unmatched_reply	-	F	bro
+1349361499.230667	C0liOK38sNtpcF7zEi	192.168.248.165	2429	71.74.56.243	25	premature_connection_reuse	-	F	bro
+1349361499.230667	C36aih4xVriMAukyjb	192.168.248.165	2429	71.74.56.243	25	SYN_with_data	-	F	bro
+1349361592.076246	C5CxPw4x7RFQazcZud	192.168.248.165	3815	71.74.56.244	25	premature_connection_reuse	-	F	bro
+1349361708.954254	-	-	-	-	-	dns_unmatched_msg	-	F	bro
+#close	2016-04-22-06-21-11

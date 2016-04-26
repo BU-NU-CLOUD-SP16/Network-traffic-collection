@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2016-04-22-06-14-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1394196008.598340	CIUX1GyqciJqCVRsd	172.16.88.10	49493	172.16.88.135	80	1	GET	f52pwerp32iweqa57k37lwp22erl48g63m39n60ou.net	/	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/6.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1394196043.661746	CoLIHC1bGrsVhIxIlj	172.16.88.10	49495	172.16.88.135	80	1	GET	h54jtbqmuj56hwb48e41p42g33h34c29grbqfxm29.ru	/	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/6.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1394196112.786516	CBiQ2E4Y7mA97c30S5	172.16.88.10	49511	172.16.88.135	80	1	GET	iqcqmrn30iuoubuo11crfydvkylrbtmtev.info	/	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/6.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1394196144.822137	CdkaAkBJPVfAGvguf	172.16.88.10	49512	172.16.88.135	80	1	GET	ezdsaqbulsgzh44m59p42eqmrkxa57n40brcq.com	/	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/6.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1394196176.866791	C2y8Oa1pIOUlBhPpMj	172.16.88.10	49513	172.16.88.135	80	1	GET	o41lwmqnqarmxiyi35iyftpzaye21osjyjq.ru	/	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/6.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1394196208.902443	CgAXuT270nOSr1G2R	172.16.88.10	49516	172.16.88.135	80	1	GET	n30arh24frisbslqmqoxgvpvk47o11pritev.biz	/	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/6.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1394196240.947552	CsExT42ZJEY4GXxrwi	172.16.88.10	49517	172.16.88.135	80	1	GET	jsa57n20hyisjxcre11fwl58gta37i65ovf32o51.info	/	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/6.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1394196272.995504	CgYFBC746qDZcQ5mb	172.16.88.10	49518	172.16.88.135	80	1	GET	j36lxf52hsj56itc49lqayoveymwfzosi15jw.org	/	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/6.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1394196305.029692	COFksQ3fBuan5lO2g9	172.16.88.10	49519	172.16.88.135	80	1	GET	g53lvo61ayoucrm49kzgvm69irhwl58erjwfu.net	/	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/6.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2016-04-22-06-14-30

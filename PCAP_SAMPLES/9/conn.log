@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2016-04-22-06-20-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents	orig_cc	resp_cc	sensorname
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]	string	string	string
+1295296761.548295	C1NILHgTplnNgWJl3	172.16.3.27	1040	195.189.226.193	80	tcp	http	1.667770	153	520	SF	-	-	0	ShADadfF	5	361	5	728	(empty)	-	UA	(empty)
+1295296760.442096	CI4Kz2zlC0pcc1lU8	172.16.3.27	1025	172.16.1.1	53	udp	dns	0.997112	62	0	S0	-	-	0	Dc	2	118	0	0	(empty)	-	-	(empty)
+1295296794.204669	CzVz8S19it2S53vgk	172.16.3.27	1041	195.189.226.193	80	tcp	http	1.555079	151	516	SF	-	-	0	ShADadfF	5	359	5	724	(empty)	-	UA	(empty)
+1295296825.750397	CoVMvd104ZcrWI08Qf	172.16.3.27	1042	195.189.226.193	80	tcp	http	0.759407	151	516	SF	-	-	0	ShADadfF	5	359	5	724	(empty)	-	UA	(empty)
+1295296856.500038	CbcgDz4jGjoN29PUpd	172.16.3.27	1043	195.189.226.193	80	tcp	http	1.343266	151	516	SF	-	-	0	ShADadfF	5	359	5	724	(empty)	-	UA	(empty)
+1295296887.843515	CW1iX24GpzkfozFYVi	172.16.3.27	1044	195.189.226.193	80	tcp	http	1.253269	151	516	SF	-	-	0	ShADadfF	5	359	5	724	(empty)	-	UA	(empty)
+1295296919.093181	CIhY7T2FdliWYXIwjl	172.16.3.27	1045	195.189.226.193	80	tcp	http	1.066622	151	516	SF	-	-	0	ShADadfF	5	359	5	724	(empty)	-	UA	(empty)
+1295296950.155435	Czfn6o3lwoJc0WoyH	172.16.3.27	1046	195.189.226.193	80	tcp	http	0.983548	151	516	SF	-	-	0	ShADadfF	5	359	5	724	(empty)	-	UA	(empty)
+1295296981.139540	CbwMjl1uID3YxTM0R3	172.16.3.27	1047	195.189.226.193	80	tcp	http	1.205606	151	516	SF	-	-	0	ShADadfF	6	399	5	724	(empty)	-	UA	(empty)
+1295297012.344982	CuHIv02xwR4xapKCh9	172.16.3.27	1048	195.189.226.193	80	tcp	http	0.980084	151	516	SF	-	-	0	ShADadfF	5	359	5	724	(empty)	-	UA	(empty)
+1295297043.326471	CGoGzPEH8mMkiw9g6	172.16.3.27	1049	195.189.226.193	80	tcp	http	0.896575	151	516	SF	-	-	0	ShADadfF	5	359	5	724	(empty)	-	UA	(empty)
+#close	2016-04-22-06-20-29
