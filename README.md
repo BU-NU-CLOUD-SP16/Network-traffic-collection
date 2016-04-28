@@ -4,3 +4,6 @@ Please refer to "readme.pdf" for this project's documentation, and the "Demo" fo
 
 Open the following link for a video presenting our project:
 https://drive.google.com/folderview?id=0BwsjHRX0wSCHUVVpQ2c2RWgzMmc&usp=sharing
+
+readme.pdf:
+https://github.com/BU-NU-CLOUD-SP16/Network-traffic-collection/blob/master/readme.pdf
