@@ -221,7 +221,7 @@ if __name__ == "__main__":
     ##################################################################################################
 
     # CONNECT TO DETECTION DB
-    client = InfluxDBClient('127.0.0.1', '8086', database="Detect_1000")
+    client = InfluxDBClient('127.0.0.1', '8086', database="Detect_{}".format(N))
 
     # CHECK EXISTENCE OF DATABASE
     alldbs = client.get_list_database()
